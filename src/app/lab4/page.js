@@ -15,7 +15,7 @@ const data = [
   {
     id:2,
     fname:"Ayden-anand",
-    lname:"medku",
+    lname:"",
     job: "muu nohoi",
     image: "https://pbs.twimg.com/profile_images/1778342157654347776/8yDj-uVX_400x400.jpg",
     items: [{id:2, name:"furry costume"},{id:3, name:"20$"}]
@@ -95,7 +95,7 @@ const data = [
   {
     id:12,
     fname:"Serjmyadg",
-    lname:"medku",
+    lname:"",
     job: "CU",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRNafh_0MzqWaKctvFZo4FTl0QqXQB_yFXww&s",
     items: [{id:22, name:"phone"}]
@@ -103,8 +103,8 @@ const data = [
   {
     id:13,
     fname:"Oyunbileg",
-    lname:"medku",
-    job: "no job",
+    lname:"",
+    job: "white washed",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlz-0gZGjxoAp2wa6pbtGIR_9nsVwQZMHbOQ&s",
     items: [{id:23, name:"starbucks"},{id:24, name:"taylor swift"}]
   },
@@ -113,8 +113,56 @@ const data = [
     fname:"Ysui",
     lname:"Enkhbayar",
     job: "Doomscroller",
-    image: "https://media.tenor.com/3em2hUK8Kn4AAAAe/sad-black-guy.png",
-    items: [{id:25, name:"anger"},{id:26, name:"lighter"}]
+    image: "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2021/10/doomscrolling.jpg",
+    items: []
+  },
+  {
+    id:15,
+    fname:"Hulan",
+    lname:"",
+    job: "Dancer",
+    image: "https://npr.brightspotcdn.com/dims4/default/ab8e8ec/2147483647/strip/true/crop/1320x990+0+0/resize/880x660!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2f%2F1d%2F8fb81534441b90210c9fe9f3d743%2Fabel-rivarola-credit-alvar-fan-ez.jpg",
+    items: [{id:25, name:"phone"},{id:26, name:"math"}]
+  },
+  {
+    id:16,
+    fname:"Khantushig",
+    lname:"Gankhuyag",
+    job: "unemployd",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28ZN4JFEGmWmDqipaCHAFjgDTtS29D7QsxKEgXBcBIdpAkQHi",
+    items: [{id:27, name:"f1"}]
+  },
+  {
+    id:17,
+    fname:"Tsolmon",
+    lname:"",
+    job: "boxer",
+    image: "https://a.espncdn.com/photo/2015/0911/box_a_tyson01jr__r7925_1296x729_16-9.jpg",
+    items: [{id:28, name:"boxing glove"},{id:29, name:"mouth guard"}]
+  },
+  {
+    id:18,
+    fname:"Erhes",
+    lname:"",
+    job: "Moana",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Maui_Disney.webp/299px-Maui_Disney.webp.png",
+    items: []
+  },
+  {
+    id:19,
+    fname:"Gunsen-yanjin",
+    lname:"",
+    job: "unemployed",
+    image: "https://media.istockphoto.com/id/936681148/vector/lock-icon.jpg?s=612x612&w=0&k=20&c=_0AmWrBagdcee-KDhBUfLawC7Gh8CNPLWls73lKaNVA=",
+    items: []
+  },
+  {
+    id:20,
+    fname:"Telmuun",
+    lname:"Tserenbajir",
+    job: "unemployed",
+    image: "https://media.istockphoto.com/id/936681148/vector/lock-icon.jpg?s=612x612&w=0&k=20&c=_0AmWrBagdcee-KDhBUfLawC7Gh8CNPLWls73lKaNVA=",
+    items: []
   },
 ]
 export default function Home() {
